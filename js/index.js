@@ -1,6 +1,6 @@
 /*global $*/
 $(function() {
    $('button').click(function() {
-       $('h1').toggleClass('marked');
+       $('h1').toggle(5000);
    });
 });
