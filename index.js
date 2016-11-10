@@ -1,1 +1,3 @@
-$('h1').html('Hello jQuery!');
+$(function() {
+    $('h1').html('Hello jQuery!');
+});
